@@ -30,6 +30,7 @@ spec:
         app: win-webserver
       name: win-webserver
     spec:
+     runtimeClassName: windows-2019
      containers:
       - name: windowswebserver
         image: mcr.microsoft.com/windows/servercore:ltsc2019
